@@ -55,6 +55,10 @@ p {
     color: white;
 }
 
+.bg-dark a {
+    color: white;
+}
+
 .text-faded {
     color: fade(white, 70%);
 }
@@ -74,8 +78,8 @@ aside {
 // Navigation
 
 .navbar-default {
-    background-color: white;
-    border-color: fade(@gray-darker, 5%);
+    background-color: rgba(0,0,0,0.25);
+    border-color: transparent;
     .sans-serif-font;
     .transition-all;
     .navbar-header .navbar-brand {
@@ -119,8 +123,8 @@ aside {
         }
     }
     @media (min-width: 768px) {
-        background-color: transparent;
-        border-color: fade(white, 30%);
+        background-color: rgba(0,0,0,0.25);
+        border-color: transparent;
         .navbar-header .navbar-brand {
             color: fade(white, 70%);
             &:hover,
@@ -136,8 +140,8 @@ aside {
             }
         }
         &.affix {
-            background-color: white;
-            border-color: fade(@gray-darker, 5%);
+            background-color: rgba(255,255,255,0.75);
+            border-color: transparent;
             .navbar-header .navbar-brand {
                 color: @theme-primary;
                 font-size: 14px;
