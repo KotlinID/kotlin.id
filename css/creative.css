@@ -3,6 +3,43 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+@media (min-device-width: 320px) and (max-device-width: 736px) {
+  #mainNav {
+    box-shadow: 0px 1px 7px 0px rgba(0, 0, 0, 0.5);
+  }
+  #mainNav .navbar-brand {
+    color: #FFF;
+    font-size: 12px;
+    padding: 20px;
+  }
+  #mainNav .navbar-toggle {
+    color: #FFF;
+    margin-right: 10px;
+  }
+  #mainNav .navbar-toggle:hover,
+  #mainNav .navbar-toggle:focus {
+    background-color: #CE1126;
+  }
+  #mainNav .navbar-collapse.collapse .nav.navbar-nav {
+    background: #CE1126;
+    margin: 0 -15px;
+  }
+  #mainNav .navbar-collapse.collapse .nav.navbar-nav li a {
+    color: #FFF;
+  }
+  #mainNav .navbar-collapse.collapse .nav.navbar-nav li.active > a,
+  #mainNav .navbar-collapse.collapse .nav.navbar-nav li.active > a:focus {
+    color: #fde1e4 !important;
+    font-weight: normal;
+  }
+  #page-top header .header-content {
+    padding: 70px 5px 20px;
+  }
+  #homeHeading img {
+    margin-left: -35vw;
+    width: 65vw;
+  }
+}
 html,
 body {
   height: 100%;

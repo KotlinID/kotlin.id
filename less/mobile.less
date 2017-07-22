@@ -1,0 +1,54 @@
+@import "variables.less";
+
+@media (min-device-width: 320px) and (max-device-width: 736px) {
+  #mainNav {
+    box-shadow: 0px 1px 7px 0px rgba(0,0,0,0.5);
+
+    .navbar-brand {
+      color: #FFF;
+      font-size: 12px;
+      padding: 20px;
+    }
+
+    .navbar-toggle {
+      color: #FFF;
+      margin-right: 10px;
+
+      &:hover, &:focus {
+        background-color: @theme-primary;
+      }
+    }
+
+    .navbar-collapse.collapse {
+      .nav.navbar-nav {
+        background: @theme-primary;
+        margin: 0 -15px;
+
+        li {
+          a { color: #FFF; }
+
+          &.active {
+            > a,
+            > a:focus {
+              color: lighten(@theme-primary, 50%) !important;
+              font-weight: normal;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #page-top header {
+    .header-content {
+      padding: 70px 5px 20px;
+    }
+  }
+
+  #homeHeading {
+    img {
+      margin-left: -35vw;
+      width: 65vw;
+    }
+  }
+}
